@@ -20,6 +20,9 @@
   "devDependencies": {
     "mocha": "4"
   },
+  "engines": {
+    "node": ">=8"
+  },
   "author": "Andy Bettisworth <andy@accreu.com> https://andybettisworth.com",
   "license": "MIT",
   "bugs": {

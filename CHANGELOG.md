@@ -12,10 +12,11 @@ Changes are categorized as follows:
 
 ## [Unreleased]
 
-* 2 minor enhancement:
+* 3 minor enhancement:
 
   * Add watch test task
   * Add initial test
+  * Set node engines >=8
 
 ## 2017-11-19, Version 0.1.0
 
