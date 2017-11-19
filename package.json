@@ -4,7 +4,8 @@
   "description": "Generate a migration file.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha --no-colors",
+    "test-watch": "mocha --watch --no-colors"
   },
   "repository": {
     "type": "git",

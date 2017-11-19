@@ -12,7 +12,11 @@ Changes are categorized as follows:
 
 ## [Unreleased]
 
-## YYYY-MM-DD, Version 0.1.0
+* 1 minor enhancement:
+
+  * Add watch test task
+
+## 2017-11-19, Version 0.1.0
 
 * 2 minor enhancements:
 
