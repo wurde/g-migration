@@ -12,9 +12,10 @@ Changes are categorized as follows:
 
 ## [Unreleased]
 
-* 1 minor enhancement:
+* 2 minor enhancement:
 
   * Add watch test task
+  * Add initial test
 
 ## 2017-11-19, Version 0.1.0
 
