@@ -1,0 +1,28 @@
+{
+  "name": "g-migration",
+  "version": "0.1.0",
+  "description": "Generate a migration file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wurde/g-migration.git"
+  },
+  "keywords": [
+    "migration",
+    "db",
+    "express",
+    "generator"
+  ],
+  "devDependencies": {
+    "mocha": "4"
+  },
+  "author": "Andy Bettisworth <andy@accreu.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wurde/g-migration/issues"
+  },
+  "homepage": "https://github.com/wurde/g-migration#readme"
+}
