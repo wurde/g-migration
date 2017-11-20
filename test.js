@@ -15,6 +15,7 @@ const fs = require('fs')
 describe("g_migration", () => {
   after(() => {
     fs.readdir('./db', (err, files) => {
+      if (err) { throw err }
       for (let i=0; i<files.length; i++) {
         fs.unlinkSync(`./db/${files[i]}`)
       }
@@ -30,7 +31,10 @@ describe("g_migration", () => {
   it("should require a ./db directory exists", (done) => {
     done()
   })
-  it("should create migration file", () => {
-    // TODO count number of files, 1
+  it("should create migration file", (done) => {
+    fs.readdir('./db', (err, files) => {
+      assert.equal(files.length, 1)
+      done()
+    })
   })
 })

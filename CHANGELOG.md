@@ -18,7 +18,7 @@ Changes are categorized as follows:
   * Export as binary
   * Explicitly set files to export
 
-* 6 minor enhancements:
+* 7 minor enhancements:
 
   * Add watch test task
   * Add initial test
@@ -26,6 +26,7 @@ Changes are categorized as follows:
   * Generate a timestamp
   * Check that ./db exists
   * Add zero padding to timestamp
+  * Add test for migration creation
 
 * 1 bug fix:
 
