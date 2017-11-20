@@ -12,11 +12,12 @@ Changes are categorized as follows:
 
 ## [Unreleased]
 
-* 3 minor enhancement:
+* 4 minor enhancements:
 
   * Add watch test task
   * Add initial test
   * Set node engines >=8
+  * Generate a timestamp
 
 ## 2017-11-19, Version 0.1.0
 
