@@ -4,19 +4,22 @@ Generate a migration file.
 
 ## Getting started
 
-Local install:
+Add the following to your `package.json` file to download the binary and
+setup an npm script to run the task.
 
     ./package.json
     "devDependencies": {
-      "g-migration": "0"
-    }
+      "g-migration": "1"
+    },
+    "scripts": {
+      "g:migration": "./node_modules/.bin/g_migration",
+    },
 
+Now run the commands:
+
+    $ npm install
+    $ mkdir ./db
     $ npm run g:migration
-
-Global install:
-
-    npm install g-migration
-    npm run g:migration
 
 ## Changelog
 

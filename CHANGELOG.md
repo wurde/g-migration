@@ -10,6 +10,14 @@ Changes are categorized as follows:
 * N minor enhancements
 * N bug fixes
 
+## [Unreleased]
+
+## 2017-11-19, Version 1.0.0
+
+* 1 major enhancement:
+
+  * Update README.md `Getting started`
+
 ## 2017-11-19, Version 0.2.0
 
 * 3 major enhancements:
