@@ -27,6 +27,10 @@ Changes are categorized as follows:
   * Check that ./db exists
   * Add zero padding to timestamp
 
+* 1 bug fix:
+
+  * Ensure test files are deleted
+
 ## 2017-11-19, Version 0.1.0
 
 * 2 minor enhancements:
