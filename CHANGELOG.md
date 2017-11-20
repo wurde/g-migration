@@ -12,6 +12,12 @@ Changes are categorized as follows:
 
 ## [Unreleased]
 
+## 2017-11-19, Version 1.3.0
+
+* 1 minor enhancement:
+
+  * Code highlighting in README.md
+
 ## 2017-11-19, Version 1.2.0
 
 * 1 minor enhancement:
