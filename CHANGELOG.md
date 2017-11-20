@@ -12,6 +12,10 @@ Changes are categorized as follows:
 
 ## [Unreleased]
 
+* 1 major enhancement:
+
+  * Create migration file
+
 * 6 minor enhancements:
 
   * Add watch test task

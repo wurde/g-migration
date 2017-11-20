@@ -12,6 +12,10 @@ const g_migration = require('./index.js')
  */
 
 describe("g_migration", () => {
+  afterEach(() => {
+    // TODO remove all migration files
+  })
+
   it("should have tests", () => {
     assert.ok(true)
   })
@@ -20,5 +24,8 @@ describe("g_migration", () => {
   })
   it("should require a ./db directory exists", (done) => {
     done()
+  })
+  it("should create migration file", () => {
+    // TODO count number of files, 1
   })
 })

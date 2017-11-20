@@ -32,6 +32,18 @@ fs.stat('./db', (err, stats) => {
 })
 
 /**
+ * Create migration file
+ */
+
+fs.writeFile(`./db/${timestamp}`, "'use strict'\n", {
+  "encoding": "utf8",
+  "flag": 'wx',
+  "mode": 0o755
+}, (err) => {
+  if (err) { throw err }
+})
+
+/**
  * Exports timestamp
  */
 
