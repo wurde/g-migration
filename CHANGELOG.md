@@ -12,6 +12,12 @@ Changes are categorized as follows:
 
 ## [Unreleased]
 
+## 2017-11-19, Version 1.1.0
+
+* 1 minor enhancement:
+
+  * Namespace migrations under ./db/migrations
+
 ## 2017-11-19, Version 1.0.0
 
 * 1 major enhancement:

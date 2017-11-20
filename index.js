@@ -26,10 +26,10 @@ let timestamp = `${year}${month}${day}${hours}${minutes}${seconds}`
  * Ensure ./db directory exists
  */
 
-fs.stat('./db', (err, stats) => {
+fs.stat('./db/migrations', (err, stats) => {
   if (err) { throw err }
   if (!stats.isDirectory()) {
-    throw new Error('./db is not a recognized directory.')
+    throw new Error('./db/migrations is not a recognized directory.')
   }
 })
 
@@ -37,7 +37,7 @@ fs.stat('./db', (err, stats) => {
  * Create migration file
  */
 
-fs.writeFile(`./db/${timestamp}`, "'use strict'\n", {
+fs.writeFile(`./db/migrations/${timestamp}`, "'use strict'\n", {
   "encoding": "utf8",
   "flag": 'wx',
   "mode": 0o755
