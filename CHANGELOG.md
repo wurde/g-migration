@@ -12,12 +12,13 @@ Changes are categorized as follows:
 
 ## [Unreleased]
 
-* 4 minor enhancements:
+* 5 minor enhancements:
 
   * Add watch test task
   * Add initial test
   * Set node engines >=8
   * Generate a timestamp
+  * Check that ./db exists
 
 ## 2017-11-19, Version 0.1.0
 
