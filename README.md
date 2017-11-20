@@ -18,7 +18,7 @@ setup an npm script to run the task.
 Now run the commands:
 
     $ npm install
-    $ mkdir ./db
+    $ mkdir ./db/migrations
     $ npm run g:migration
 
 ## Changelog
