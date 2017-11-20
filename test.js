@@ -6,14 +6,19 @@
 
 const assert = require('assert')
 const g_migration = require('./index.js')
+const fs = require('fs')
 
 /**
  * Assertions
  */
 
 describe("g_migration", () => {
-  afterEach(() => {
-    // TODO remove all migration files
+  after(() => {
+    fs.readdir('./db', (err, files) => {
+      for (let i=0; i<files.length; i++) {
+        fs.unlinkSync(`./db/${files[i]}`)
+      }
+    })
   })
 
   it("should have tests", () => {
