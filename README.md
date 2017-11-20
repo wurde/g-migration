@@ -8,21 +8,21 @@ Add the following to your `package.json` file to download the binary and
 setup an npm script to run the task.
 
 ```json
-    ./package.json
-    "devDependencies": {
-      "g-migration": "^1.3.0"
-    },
-    "scripts": {
-      "g:migration": "./node_modules/.bin/g_migration",
-    },
+./package.json
+"devDependencies": {
+  "g-migration": "^1.4.0"
+},
+"scripts": {
+  "g:migration": "./node_modules/.bin/g_migration",
+},
 ```
 
 Now run the commands:
 
 ```bash
-    $ npm install
-    $ mkdir ./db/migrations
-    $ npm run g:migration
+$ npm install
+$ mkdir ./db/migrations
+$ npm run g:migration
 ```
 
 ## Changelog
