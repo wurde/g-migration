@@ -10,7 +10,7 @@ Changes are categorized as follows:
 * N minor enhancements
 * N bug fixes
 
-## [Unreleased]
+## 2017-11-19, Version 0.2.0
 
 * 3 major enhancements:
 
