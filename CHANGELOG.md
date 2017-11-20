@@ -12,9 +12,11 @@ Changes are categorized as follows:
 
 ## [Unreleased]
 
-* 1 major enhancement:
+* 3 major enhancements:
 
   * Create migration file
+  * Export as binary
+  * Explicitly set files to export
 
 * 6 minor enhancements:
 
