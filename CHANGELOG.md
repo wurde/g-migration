@@ -12,6 +12,12 @@ Changes are categorized as follows:
 
 ## [Unreleased]
 
+## 2017-11-19, Version 1.2.0
+
+* 1 minor enhancement:
+
+  * Use npm preferred deps syntax
+
 ## 2017-11-19, Version 1.1.0
 
 * 1 minor enhancement:

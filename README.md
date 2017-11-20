@@ -9,7 +9,7 @@ setup an npm script to run the task.
 
     ./package.json
     "devDependencies": {
-      "g-migration": "1"
+      "g-migration": "^1.1.0"
     },
     "scripts": {
       "g:migration": "./node_modules/.bin/g_migration",
