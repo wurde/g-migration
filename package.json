@@ -7,6 +7,9 @@
     "test": "mocha --no-colors",
     "test-watch": "mocha --watch --no-colors"
   },
+  "bin": {
+    "g_migration": "./index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wurde/g-migration.git"
