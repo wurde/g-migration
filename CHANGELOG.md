@@ -12,6 +12,8 @@ Changes are categorized as follows:
 
 ## [Unreleased]
 
+## 2017-11-27, Version 1.5.0
+
 * 1 minor enhancement:
 
   * Readme: Use npm for package installs
