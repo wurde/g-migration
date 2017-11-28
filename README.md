@@ -9,18 +9,15 @@ setup an npm script to run the task.
 
 ```json
 ./package.json
-"devDependencies": {
-  "g-migration": "^1.4.0"
-},
 "scripts": {
-  "g:migration": "./node_modules/.bin/g_migration",
+  "g:migration": "./node_modules/.bin/g_migration"
 },
 ```
 
 Now run the commands:
 
 ```bash
-$ npm install
+$ npm install g-migration --save-dev
 $ mkdir ./db/migrations
 $ npm run g:migration
 ```

@@ -12,6 +12,10 @@ Changes are categorized as follows:
 
 ## [Unreleased]
 
+* 1 minor enhancement:
+
+  * Readme: Use npm for package installs
+
 ## 2017-11-19, Version 1.4.0
 
 * 1 minor enhancement:
