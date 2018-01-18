@@ -26,4 +26,3 @@ node_modules
 # Keep gitsync_lock out of version control.
 .gitsync_lock
 .codesync_lock
-

@@ -12,6 +12,14 @@ Changes are categorized as follows:
 
 ## [Unreleased]
 
+* 1 major enhancement:
+
+  * Accept filename as an argument
+
+* 1 minor enhancement:
+
+  * Default extension to js
+
 ## 2017-11-27, Version 1.5.0
 
 * 1 minor enhancement:
