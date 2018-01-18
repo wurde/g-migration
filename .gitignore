@@ -4,12 +4,6 @@
 # or operating system, you probably want to add a global ignore instead:
 #   git config --global core.excludesfile '~/.gitignore_global'
 
-# Ignore all logfiles and tempfiles.
-/log/*
-/tmp/*
-!/log/.keep
-!/tmp/.keep
-
 # Ignore databases.
 *.sqlite
 *.sqlite3
@@ -17,11 +11,9 @@
 # Ignore node dependencies.
 node_modules
 
-# Ignore byte-compiled files.
-*.py[cod]
-
-# Ignore Dotenv files.
-.env
+# Ignore working db files.
+/db/migrations/*
+!/db/migrations
 
 # Keep gitsync_lock out of version control.
 .gitsync_lock
