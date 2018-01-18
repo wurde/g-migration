@@ -19,7 +19,7 @@ Now run the commands:
 ```bash
 $ npm install g-migration --save-dev
 $ mkdir ./db/migrations
-$ npm run g:migration
+$ npm run g:migration create_table_users
 ```
 
 ## Changelog

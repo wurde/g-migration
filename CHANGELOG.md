@@ -12,6 +12,8 @@ Changes are categorized as follows:
 
 ## [Unreleased]
 
+## 2018-01-17, Version 2.0.0
+
 * 1 major enhancement:
 
   * Accept filename as an argument
