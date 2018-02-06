@@ -12,6 +12,12 @@ Changes are categorized as follows:
 
 ## [Unreleased]
 
+## 2018-02-06, Version 2.1.0
+
+* 1 minor enhancement:
+
+  * Include async function template
+
 ## 2018-01-17, Version 2.0.0
 
 * 1 major enhancement:

@@ -47,7 +47,25 @@ fs.stat('./db/migrations', (err, stats) => {
  * Create migration file
  */
 
-fs.writeFile(`./db/migrations/${timestamp}${filename}`, "'use strict'\n", {
+fs.writeFile(`./db/migrations/${timestamp}${filename}`,
+`"use strict"
+
+module.exports = async (db) => {
+  console.log('migrations/${timestamp}${filename}')
+
+  try {
+    await db.query(\`
+BEGIN TRANSACTION;
+
+COMMIT;
+    \`)
+    return true
+  } catch(err) {
+    console.error(err)
+    return false
+  }
+}
+`, {
   "encoding": "utf8",
   "flag": 'wx',
   "mode": 0o755
