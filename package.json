@@ -40,5 +40,8 @@
   "bugs": {
     "url": "https://github.com/wurde/g-migration/issues"
   },
-  "homepage": "https://github.com/wurde/g-migration#readme"
+  "homepage": "https://github.com/wurde/g-migration#readme",
+  "dependencies": {
+    "moment": "^2.22.2"
+  }
 }

@@ -1,12 +1,13 @@
 #!/usr/bin/env node
 
-'use strict'
+"use strict"
 
 /**
  * Dependencies
  */
 
-const fs = require('fs')
+const fs = require("fs")
+const moment = require("moment")
 
 /**
  * Locals

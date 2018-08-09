@@ -12,6 +12,10 @@ Changes are categorized as follows:
 
 ## [Unreleased]
 
+* 1 minor enhancement:
+
+  * deps: add moment 2.22.2
+
 ## 2018-02-06, Version 2.1.0
 
 * 1 minor enhancement:
