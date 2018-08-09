@@ -14,14 +14,8 @@ const moment = require("moment")
  */
 
 let filename
-let now = new Date()
-let year = (now.getFullYear() < 10 ? '0' : '') + now.getFullYear()
-let month = ((now.getMonth() + 1) < 10 ? '0' : '') + (now.getMonth() + 1)
-let day = (now.getDate() < 10 ? '0' : '') + now.getDate()
-let hours = (now.getHours() < 10 ? '0' : '') + now.getHours()
-let minutes = (now.getMinutes() < 10 ? '0' : '') + now.getMinutes()
-let seconds = (now.getSeconds() < 10 ? '0' : '') + now.getSeconds()
-let timestamp = `${year}${month}${day}${hours}${minutes}${seconds}`
+let now = moment()
+let timestamp = now.format("YYYYMMDDHHmmss")
 
 /**
  * Accept filename as argument
