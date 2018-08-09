@@ -12,6 +12,8 @@ Changes are categorized as follows:
 
 ## [Unreleased]
 
+## 2018-08-09, Version 2.2.0
+
 * 1 minor enhancement:
 
   * deps: add moment 2.22.2
